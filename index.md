@@ -15,3 +15,4 @@ layout: index
 </ul>
 
 {{ request.path }}
+{{ site.url }}

@@ -2,6 +2,7 @@
 title: AI/ML
 name: AI/ML
 permalink: ai.html
+layout: default
 ---
 
 * [Using Github Copilot for unit testing](https://www.strictmode.io/articles/using-github-copilot-for-testing) 
