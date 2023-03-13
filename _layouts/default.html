@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include htmlheader.html %}
+</head>
+<body>
+  <article class="standalone">
+      <h1>{{ page.title }}</h1>
+      <div id="snippets">
+        {% include addbutton.html html=content %}
+      </div>
+
+      <p class="back"><a href="/linkshare/">Show all {{ site.links.size }} link categories</a></p>
+      </article>
+{% include sharetemplate.html %}
+
+    <footer>
+  {% include footer.html %}
+  </footer>
+  <script src="/linkshare/assets/scripts.js"></script>
+</body>
+</html>

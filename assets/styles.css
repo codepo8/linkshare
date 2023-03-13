@@ -1,0 +1,153 @@
+:root {
+  --mouse-y: 0;
+}
+body {
+  background:var(--background);
+  color: var(--text);
+  font-family: "Open Sans", "segoe ui", helvetica, arial, sans-serif;
+  font-size: calc(.5em + 1vw);
+  margin: 0;
+}
+article {
+  padding: 0 2em;
+  max-width: 40em;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3vmax;
+  font-weight: normal;
+  color: var(--h1colour);
+}
+.index h1 {
+  font-size: max(5vmax, 14px);
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: var(--h1colour);
+}
+h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  color: var(--h2colour);
+  margin: 0 0 0.5em 0;
+}
+.back {
+  text-align: right;
+}
+.back a {
+  color: var(--link);
+  text-decoration: none;
+  padding: .2em .5em;
+  border: 1px solid var(--link);
+  display: inline-block;
+  font-size: 1.2em;
+  background-image: linear-gradient(to right,var(--tagbackground),var(--headershadow));
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.back a:hover {
+  background-size: 100% 100%;
+  transition: background-size 400ms;
+}
+
+footer {
+  font-size: .8em;
+  padding: 1em 2em;
+  margin-top: 5em;
+  color: var(--footercolour);
+  background: var(--footerbackground);
+  border-top: 1px solid var(--footershadow);
+}
+footer a {
+  color: var(--footerlink);
+}
+div#snippets {
+  display:flex;
+  flex-direction: column;  
+}
+#snippets li {
+  padding: .2em .5em;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: .9em;
+}
+#snippets li.hidden {
+  display: none;
+}
+ul#snippets, #snippets ul{
+  margin: 1em 0;
+  padding: 0;
+}
+@media (min-width:30em) {
+  .multicolumn {
+    column-count: 2;
+  }
+}
+#snippets li > a {
+  display:block;
+  padding: .2em 0;
+  flex-basis: 94%;
+  line-height: 1.1;
+  color: var(--link);
+  text-decoration: none;
+  font-size: 1.1em;
+}
+#snippets li:hover,#snippets li:focus-within {
+  background: var(--link);
+  color: var(--background);
+  transition: 400ms;
+}
+#snippets li:focus-within a, #snippets li:focus-within svg, 
+#snippets li:hover a, #snippets li:hover svg {
+  color: var(--background);
+  stroke: var(--background);
+}
+button.copy {
+  font-family: inherit;
+  border: none;
+  text-align: center;
+  color: var(--text);
+  font-size: 0.9em;
+  cursor: pointer;
+  width: 2em;
+  height: 2em;
+  display: block;
+  padding: .2em;
+}
+div#snippets {
+  position: relative;
+}
+div#snippets ul {
+  position: relative;
+}
+ol li code {
+  color: var(--codetext);
+  display: inline-block;
+  background: var(--codebackground);;
+  border: 1px var(--codeborder) solid;
+  border-radius: 3px;
+  padding: 2px;
+}
+p a {
+  color: var(--link);
+}
+output.popup {
+  position: fixed;
+  top: -20em;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: .5em 1em;
+  background: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  transition: 400ms;
+  border-radius: .5em;
+}
+.copied output.popup { 
+  top: calc(calc(var(--mouse-y) * 1px) - 2em)
+}
+template {
+  display: none;
+}

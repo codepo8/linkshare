@@ -1,0 +1,5 @@
+{% capture newline %}
+{% endcapture %}
+{% capture itemend %}</a>{% endcapture%}
+{% assign newhtml = include.html | replace: itemend, '</a><button type="button" class="copy"></button>' %}
+{{ newhtml }}

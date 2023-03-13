@@ -1,0 +1,31 @@
+:root {
+  --background: #f8f8f8;
+  --text: #333;
+  --line: #111;
+
+  --codetext: #111;
+  --codebackground: #fcfcfc;
+  --codeborder: #ccc;
+
+  --link: #355e37;
+  --innerlink: #1e5b74;
+  --deepestlink: #46585f;
+
+  --headerbackground: #eee;
+  --headershadow: #ccc;
+  --headertext: #369;
+
+  --h1colour: #08790d;
+  --h2colour: #04467b;
+  --h3colour: #942a4e;
+  --h4colour: #333;
+
+  --stronglist: #355e37;
+  --pagetoclink: #555;
+
+}
+
+button.copy {
+  background: url(/links/assets/copy-light.svg) center center no-repeat #f8f8f8;
+  background-size: 1.2em;
+}
