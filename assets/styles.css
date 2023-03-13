@@ -68,10 +68,10 @@ div#snippets {
 }
 #snippets li {
   padding: .2em .5em;
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   font-size: .9em;
+  padding-right: 2em;
+  list-style: none;
+  position: relative;
 }
 #snippets li.hidden {
   display: none;
@@ -88,7 +88,6 @@ ul#snippets, #snippets ul{
 #snippets li > a {
   display:block;
   padding: .2em 0;
-  flex-basis: 94%;
   line-height: 1.1;
   color: var(--link);
   text-decoration: none;
@@ -105,6 +104,9 @@ ul#snippets, #snippets ul{
   stroke: var(--background);
 }
 button.copy {
+  position: absolute;
+  right: 5px;
+  top: 5px;
   font-family: inherit;
   border: none;
   text-align: center;

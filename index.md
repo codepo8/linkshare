@@ -5,7 +5,7 @@ layout: index
 
 <ul id="snippets" class="multicolumn">
 {% for s in site.links %}
-  {% if s.name == "template" %}
+  {% if s.url == "/template.html" %}
     {% continue %}
   {% endif %}
   <li>
