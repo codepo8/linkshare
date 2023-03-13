@@ -13,5 +13,3 @@ layout: index
   </li>
 {% endfor %}
 </ul>
-
-{% site.url %}
