@@ -13,3 +13,5 @@ layout: index
   </li>
 {% endfor %}
 </ul>
+
+{{ request.path }}
