@@ -6,7 +6,9 @@ See it in action at [https://codepo8.github.io/links/]
 
 ## Customising to your needs
 
-The `_links` folder contains all links that will be shown here. If you want a new category, create a new file copying the template or one of the others. Links need to be lists in markdown format. You also need to change the settings on the top:
+1. Rename the title in the `index.md` document to your title.
+
+2. The `_links` folder contains all links that will be shown here. If you want a new category, create a new file copying the template or one of the others. Links need to be lists in markdown format. You also need to change the settings on the top:
 
 * `title` is the title that will be added to the head of the document and show up in the browser tab
 * `name` is the name of the link to the collection of links in the index page

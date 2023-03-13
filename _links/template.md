@@ -1,6 +1,6 @@
 ---
-title: The title as it will show up on the browser tab
-name: The name as it will be shown as a headline on the page
+name: The title as it will show up on the browser tab and as the headline
+title: The name as it will be shown as the category
 permalink: the_file_name.html
 layout: default
 ---
