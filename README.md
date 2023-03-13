@@ -2,7 +2,7 @@
 
 A GitHub pages layout to show your links and make it easy to copy them for social sharing
 
-See it in action at [https://codepo8.github.io/links/]
+See it in action at https://codepo8.github.io/linkshare/
 
 ## Customising to your needs
 
@@ -23,7 +23,9 @@ To remove a category, delete the file.
 By default, the copied content will be in the following format when you click the copy button:
 
 👉🏼 „Chris Heilmann's Blog”
+
 🔗 https://christianheilmann.com
+
 💬 Lots of web development news since 2005!
 
 If you want to change this, edit the `sharetemplate.html` file in the `_includes` folder.
