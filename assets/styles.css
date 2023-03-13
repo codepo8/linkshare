@@ -19,7 +19,7 @@ h1 {
   color: var(--h1colour);
 }
 .index h1 {
-  font-size: max(5vmax, 14px);
+  font-size: max(3vmax, 14px);
   margin: 0;
   padding: 0;
   font-weight: normal;
