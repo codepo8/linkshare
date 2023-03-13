@@ -16,3 +16,4 @@ layout: index
 
 {{ request.path }}
 {{ site.url }}
+{{ page.url }}
