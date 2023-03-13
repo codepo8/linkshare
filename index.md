@@ -14,4 +14,4 @@ layout: index
 {% endfor %}
 </ul>
 
-{% page.url %}
+{% site.url %}
