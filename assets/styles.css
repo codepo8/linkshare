@@ -149,3 +149,21 @@ output.popup {
 template {
   display: none;
 }
+header {
+  display: block;
+  margin: .5em 0;
+  font-size: .7em;
+  text-align: center;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header li {
+  display: inline-block;
+  padding-right: 1em;
+}
+header a {
+  color:var(--footerlink);
+  text-decoration: none;
+}
