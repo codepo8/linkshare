@@ -73,6 +73,9 @@ div#snippets {
   list-style: none;
   position: relative;
 }
+#snippets.multicolumn li {
+  min-height: 1em;
+} 
 #snippets li.hidden {
   display: none;
 }
