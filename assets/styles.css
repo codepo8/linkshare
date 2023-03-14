@@ -20,8 +20,6 @@ h1 {
 }
 .index h1 {
   font-size: max(3vmax, 14px);
-  margin: 0;
-  padding: 0;
   font-weight: normal;
   color: var(--h1colour);
 }
