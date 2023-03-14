@@ -7,6 +7,8 @@ layout: default
 
 * [Chris Heilmann's Blog](https://christianheilmann.com)
 Hot news from the web development world and thoughtpieces since 2005
+* [Chris Heilmann on LinkedIn](https://www.linkedin.com/in/christianheilmann/)
+What can I do for you?
 * [Developer Advocacy Handbook](https://developer-advocacy.com)
 The Developer Advocacy Handbook teaches you all to get started as a content creator for the web
 * [Developer Advocacy Handbook on Amazon](https://www.amazon.com/dp/B0BKNTPDFJ/)

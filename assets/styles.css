@@ -67,8 +67,10 @@ div#snippets {
   flex-direction: column;  
 }
 #snippets li {
+  border-radius: 5px;
   padding: .2em .5em;
   font-size: .9em;
+  min-height: 2em;
   padding-right: 2em;
   list-style: none;
   position: relative;
@@ -104,6 +106,7 @@ ul#snippets, #snippets ul{
   stroke: var(--background);
 }
 button.copy {
+  border-radius: 5px;
   position: absolute;
   right: 5px;
   top: 5px;
@@ -123,14 +126,6 @@ div#snippets {
 }
 div#snippets ul {
   position: relative;
-}
-ol li code {
-  color: var(--codetext);
-  display: inline-block;
-  background: var(--codebackground);;
-  border: 1px var(--codeborder) solid;
-  border-radius: 3px;
-  padding: 2px;
 }
 p a {
   color: var(--link);
