@@ -40,5 +40,8 @@ If you want to change this, edit the `sharetemplate.html` file in the `_includes
 
 You can do this by editing the `styles.css` file for all the layout bits. All the colours for dark and light mode are defined in `dark-theme.css` and `light-theme.css`.
 
-Pull requests and issues welcome!
+## Hosting
 
+To host linkshare yourself, fork it and [set up GitHub Pages for the repo](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site). 
+
+Pull requests and issues welcome!
