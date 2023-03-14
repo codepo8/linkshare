@@ -4,6 +4,8 @@ A GitHub pages layout to show your links and make it easy to copy them for socia
 
 See it in action at https://codepo8.github.io/linkshare/
 
+[![Screencast showing the template in action](assets/linkshare-in-action.gif)](https://codepo8.github.io/linkshare/)
+
 ## Customising to your needs
 
 1. Rename the title in the `index.md` document to your title.
